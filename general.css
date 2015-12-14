@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 0;
-    font-family: Tahoma;
+    font-family: sans-serif;
     text-align: center;
     border: 0;
 }
@@ -221,4 +221,3 @@ nav {
     outline: 0;
     transition: all 0.8s;
 }
-

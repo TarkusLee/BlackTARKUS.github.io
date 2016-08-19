@@ -28,7 +28,7 @@ main {
     display: inline-block;
     min-width: 500px;
     font-size: 12px;
-    background-size: contain;
+    background-size: 300px 400px;
     background-repeat: no-repeat;
     border-width: 1px;
     border-style: solid;

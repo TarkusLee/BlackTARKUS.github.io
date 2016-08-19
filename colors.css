@@ -77,10 +77,10 @@ h1 {
 }
 .column > a,
 .column > ul > li:before {
-    color: #1D1F21;
+    color: #8795A1;
 }
 .column > a {
-    text-shadow: 0 0.5px #373B41;
+    text-shadow: 0 0.5px #1F1F1F;
 }
 .column > ul > li > a {
     color: #81A2BE;
@@ -89,35 +89,35 @@ h1 {
 /* purple column highlight */
 .column_purple:hover > a,
 .column_purple:hover > ul > li:before {
-    color: #3c3a5c;
+    color: #7500AB;
 }
 .column_purple:hover > a {
-    text-shadow: 0 0.5px #b9b6d9;
+    text-shadow: 0 0.5px #7500AB;
 }
 .column_purple > ul > li > a:hover {
-    color: #b9b6d9;
+    color: #7500AB;
 }
 
 /* pink column highlight */
 .column_pink:hover > a,
 .column_pink:hover > ul > li:before {
-    color: #70293b;
+    color: #C721D6;
 }
 .column_pink:hover > a {
-    text-shadow: 0 0.5px #d67b96;
+    text-shadow: 0 0.5px #C721D6;
 }
 .column_pink > ul > li > a:hover {
-    color: #d67b96;
+    color: #C721D6;
 }
 
 /* green column highlight */
 .column_green:hover > a,
 .column_green:hover > ul > li:before {
-    color: #43644a;
+    color: #3ACA63;
 }
 .column_green:hover > a {
-    text-shadow: 0 0.5px #729a64;
+    text-shadow: 0 0.5px #3ACA63;
 }
 .column_green > ul > li > a:hover {
-    color: #91b476;
+    color: #3ACA63;
 }

@@ -21,7 +21,7 @@ define('TWITTER_CARDS', false);
 // If you're using this, make sure to put a forward slash before.
 // E.g. "/imageserve" not "imageserve"
 define('IMAGESERVE_DIR', "/imageserve");
-define('TWITTER_HANDLE', "@tacticaltarkus");
+define('TWITTER_HANDLE', "@aerouk_");
 
-define('APP_NAME', "Uploaded Image");
+define('APP_NAME', "imageserve");
 define('PASSKEY', "dudeweedlmao");

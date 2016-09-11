@@ -7,7 +7,7 @@ body {
 	background: #222;
 	font-family: 'Oxygen', 'sans-serif';
 	font-size: 1.0em;
-	color:#555;
+	color:#cccccc;
 }
 * {
 	margin:0;
@@ -48,7 +48,7 @@ p {
 	margin-bottom:20px;
 }
 a {
-	color:#B80000;
+	color:#9900cc;
 }
 a:hover {
 	color:#000;
@@ -116,21 +116,21 @@ h1 {
 	font-size:2.4em;
 }
 h2 {
-	color:#2f2f2f;
+	color:#f2f2f2;
 	font-size:1.8em;
 	font-weight:bold;
 	padding:0 0 5px;
 	margin:0;
 }
 h3 {
-	color:#D20000;
-	font-size:1.6em;
-	padding-bottom:10px;
+	color:#9900cc;
+	padding-bottom:20px;
+	padding-left:190px;
 }
 h4 {
 	padding-bottom:10px;
 	font-size:1.4em;
-	color:#000;
+	color:#cccccc;
 }
 h5 {
 	padding-bottom:10px;
@@ -205,7 +205,7 @@ section#body {
 section#content {
 	width:580px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #262626;
 }
 .column-left {
 	float:left;
@@ -237,7 +237,7 @@ nav#mainnav li.selected-item a:hover {
 	background: #9900cc;
 }
 nav#mainnav li a:hover {
-	background:#292929;
+	background:#404040;
 	color: #eee;
 	text-decoration:none;
 }

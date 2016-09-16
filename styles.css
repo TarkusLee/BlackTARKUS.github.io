@@ -114,13 +114,14 @@ border:none;
 }
 h1 {
 	font-size:2.4em;
+	font-weight: bold;
 }
 h2 {
 	color:#f2f2f2;
 	font-size:1.8em;
 	font-weight:bold;
-	padding:0 0 5px;
-	margin:0;
+	padding-bottom: 5px;
+	text-align: center;
 }
 h3 {
 	color:#9575CD;
@@ -128,12 +129,12 @@ h3 {
 	text-align: center;
 }
 h4 {
-	padding-bottom:10px;
-	font-size:1.4em;
-	color:#cccccc;
+	font-size:1em;
+	font-weight: bold;
+	text-align: center;
+	color:#f2f2f2;
 }
 h5 {
-	padding-bottom:10px;
 	font-size:1.2em;
 	color:#cccccc;
 }

@@ -2,13 +2,17 @@
     box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
     background-color: #242527;
     color: #FFFFFF;
-    width: auto;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
     font-family: 'Droid Sans', sans-serif;
     font-size: 1.0em;
 }
@@ -51,6 +55,10 @@ a:visited {
     border-bottom: 2px solid #7559a6;
 }
 
+ul.a {
+    list-style-type: disc;
+}
+
 .header {
     background-color: #4B4C4E;
     float: right;
@@ -73,10 +81,13 @@ a:visited {
     background-color: #4B4C4E;
     color: #D1D1D1;
     font-size: 100%;
-    padding: 5px 15px 5px 15px;
     position: absolute;
+    right: 0;
     bottom: 0;
+    left: 0;
+    padding: 0px 15px 0px 15px;
     width: 100%;
+    text-align: center;
 }
 
 .column {

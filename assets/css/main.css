@@ -1626,7 +1626,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .icon:before {
     display: inline-block;
-    font-family: Roboto Slab;
+    font-family: fontawesome;
     font-size: 1.25em;
     text-decoration: none;
     font-style: normal;
@@ -2054,7 +2054,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
         border: 0;
     }
     #headerToggle .toggle:before {
-        font-family: Roboto Slab;
+        font-family: fontawesome;
         text-decoration: none;
         font-style: normal;
         font-weight: normal;

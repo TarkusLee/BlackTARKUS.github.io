@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 /*
 	Prologue by HTML5 UP
@@ -1236,7 +1237,7 @@ body {
 
 body {
     background: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
@@ -1255,7 +1256,7 @@ body.is-loading * {
 }
 
 input, textarea, select {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
@@ -1625,7 +1626,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .icon:before {
     display: inline-block;
-    font-family: FontAwesome;
+    font-family: Roboto Slab;
     font-size: 1.25em;
     text-decoration: none;
     font-style: normal;
@@ -1721,7 +1722,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 #logo p {
     position: relative;
     display: block;
-    font-size: 0.6em;
+    font-size: 0.5em;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.25em;
     margin: 0.5em 0 0 0;
@@ -2053,7 +2054,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
         border: 0;
     }
     #headerToggle .toggle:before {
-        font-family: FontAwesome;
+        font-family: Roboto Slab;
         text-decoration: none;
         font-style: normal;
         font-weight: normal;

@@ -1626,7 +1626,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .icon:before {
     display: inline-block;
-    font-family: fontawesome;
+    font-family: FontAwesome;
     font-size: 1.25em;
     text-decoration: none;
     font-style: normal;
@@ -2041,8 +2041,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
         left: 0;
         position: fixed;
         top: 0;
-        width: 3.25em;
-        z-index: 10001;
+        width: 3.25em;z-index: 10001;
     }
     #headerToggle .toggle {
         position: absolute;
@@ -2054,7 +2053,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
         border: 0;
     }
     #headerToggle .toggle:before {
-        font-family: fontawesome;
+        font-family: FontAwesome;
         text-decoration: none;
         font-style: normal;
         font-weight: normal;

@@ -87,6 +87,7 @@
         <span id="close"></span>
         <div id="switchButtons">
           <button id="switchJojo">Jojo's Bizarre Adventure: Herritage for the Future</button>
+          <button id="switchSlap">Slap City</button>
         </div>
         <p><strong>Changing your game will empty your tierlist!</strong> Do not click unless you are sure you want to change! You cannot undo this.</p>
       </div>
@@ -118,6 +119,7 @@
     // character images
     var singleChar = "<div class='character'></div>";
     var gameJojo = ["jojo","dio","sdio","polnareff","kakyoin","jotaro","nkakyoin","bpolnareff","youngseph","oldseph","mariah","chaka","khan","midler","rubber","avdol","iggy","horse","hoingo","petshop","alessi","vanilla","devo"];
+    var gameSlap = ["dew","remedy","ruby", "jenny", "casual", "fish"];
     
     var singleTier = "<tr><td class='labelHolder' contenteditable='true' style='background-color:#FFFF7F'><span class='label'>NEW</span></td><td><div class='tier sort' id='rows'><div class='hiddenkid'></div></div></td><td><div id='settings'></div><div id='moveButtons'><div id='moveUp'></div><div id='moveDown'></div></div></td></tr>";
     
@@ -191,6 +193,7 @@
       console.log("game switching");
       switch($(this).attr("id")) {
         case "switchJojo": changeGame(gameJojo);break;
+        case "switchSlap": changeGame(gameSlap);break;
       }
     });
       
@@ -262,6 +265,7 @@
       } else if (clicked == "reset") {
         switch(currentGameChars[0]) {
           case "jojo": changeGame(gameJojo);break;
+          case "slap": changeGame(gameSlap);break;
         }
         loadCode(currentGameChars[0]+"==S|0==A|1==B|3==C|5==D|7==E|8==F|9");
       }
@@ -355,6 +359,7 @@
       console.log(processedCode);
       switch(processedCode[0][0]) {
         case "jojo": changeGame(gameJojo);break;
+        case "slap": changeGame(gameSlap);break;
       }
       for (var i = 1; i < processedCode.length; i++) {
         $("tbody").append(singleTier);

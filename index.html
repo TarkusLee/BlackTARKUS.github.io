@@ -1,136 +1,575 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <title>Welcome!</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
 
-<body>
-    <!-- Header -->
-    <div id="header">
-        <div class="top">
-            <!-- Logo -->
-            <div id="logo">
-                <span class="image avatar48"><img src="assets/images/avatar.jpg" alt="" /></span>
-                <h1 id="title">Cody Lee</h1>
-                <p>Computer Science Undergrad</p>
+    <title>Lee - Web Portfolio</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" href="assets/theme/images/apple-touch-icon.png">
+    <link rel="icon" href="assets/theme/images/favicon.ico">
+
+    <!--pace (page loader) style-->
+    <link href="assets/plugins/pace/pace.css" rel="stylesheet">
+    <script src="assets/plugins/pace/pace.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="assets/plugins/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link href="assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- typed style -->
+    <link href="assets/plugins/typed/typed.css" rel="stylesheet">
+    <!-- popup style-->
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- simple Captcha-->
+    <link href="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Themes styles-->
+    <link href="assets/theme/css/style.css" rel="stylesheet">
+    <!-- black skin-->
+    <!-- <link href="assets/theme/css/skin-black.css" rel="stylesheet"> -->
+  </head>
+
+
+  <body  data-spy="scroll" data-target=".menu-area" data-offset="200">
+    <!--wrapper page-->
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header" id="home">
+        <div class="content-table header-content-fixed ">
+          <div class="whoim">
+            <div class="box-line text-uppercase text-bold">
+              Who I Am
             </div>
-            <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-                    <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-                    <li><a href="resume.html"><span class="icon fa-user">Resume</span></a></li>
-                    <li><a href="entertainment.html"><span class="icon fa-user">Fun Projects</span></a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="bottom">
-            <!-- Social Icons -->
-            <ul class="icons">
-                <li><a href="https://twitter.com/TarkusLee" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="https://github.com/BlackTARKUS" class="icon fa-github"><span class="label">Github</span></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Main -->
-    <div id="main">
-        <!-- Intro -->
-        <section id="top" class="one dark cover">
-                        <div class="container">
-
-                            <header>
-                                <h2 class="alt">Hello I am <strong>Cody</strong>, a computer science<br />
-                                student at Mercer University</h2>
-                                <p style="text-shadow: 2px 2px 3px #212121;">This is my site, built with Prologue, where I display things I have made or enjoy.</p>
-                            </header>
-                        </div>
-        </section>
-        <!-- Portfolio -->
-        <section id="portfolio" class="two">
+          </div>
+          <div class="v-content">
             <div class="container">
-                <header>
-                    <h2>Portfolio</h2>
-                </header>
-                <p>Here are some of the research projects, and hobbiest creations I have done.</p>
-                <div class="row">
-                    <div class="4u 12u$(mobile)">
-                        <article class="item">
-                            <a href="assets/images/SpringACM2017.jpg" class="image fit"><img src="assets/images/SpringACM2017.jpg" alt="" /></a>
-                            <header>
-                                <h3>Mercer University Programming Team: 2017 2nd Place</h3>
-                            </header>
-                        </article>
-                        <article class="item">
-                            <a href="https://github.com/BlackTARKUS/ChineseDB" class="image fit"><img src="assets/images/ChineseDB.jpg" alt="mulan" /></a>
-                            <header>
-                                <h3>Independent Project: Chinese Learning Database</h3>
-                            </header>
-                        </article>
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        <article class="item">
-                            <a href="https://github.com/MercerU-TCO/JDA" class="image fit"><img src="assets/images/rro.png" alt="" /></a>
-                            <header>
-                                <h3>Freshman Research: Jungle Digital Archive</h3>
-                            </header>
-                        </article>
-                        <article class="item">
-                            <a href="https://github.com/BlackTARKUS/CompressionAlgorithms" class="image fit"><img src="assets/images/Compression.jpg" alt="Compression Research" /></a>
-                            <header>
-                                <h3>Sophmore Research: Compression Algorithms</h3>
-                            </header>
-                        </article>
-                    </div>
-                    <div class="4u$ 12u$(mobile)">
-                        <article class="item">
-                            <a href="assets/images/Offline.jpg" class="image fit"><img src="assets/images/Offline.jpg" alt="" /></a>
-                            <header>
-                                <h3>Stream Assets for WaWa's Boot Camp</h3>
-                            </header>
-                        </article>
-                        <article class="item">
-                            <a href="assets/images/Goblin Guide.jpg" class="image fit"><img src="assets/images/Goblin Guide.jpg" alt="Goblin" /></a>
-                            <header>
-                                <h3>Magic the Gathering: Goblin Guide Tribute</h3>
-                            </header>
-                        </article>
-                    </div>
+              <h1 class="text-uppercase color-dark name">Cody "Tarkus" Lee</h1>
+              <h4  class="text-uppercase color-dark font-alt job"><span id="typed" class="typed"></span></h4>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Main navbar -->
+        <div class="menu-area">
+          <div class="toogle-bars">
+            <a href="#menu-collapse" data-toggle="collapse" class="collapsed"><i class="fa fa-bars ic-open"></i> <i class="fa fa-remove ic-close"></i> MENU</a>
+          </div>
+          <div class="menu-collapse collapse" id="menu-collapse">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <ul class="breadcrumb main-nav no-space">
+                    <li class="link-inpage"><a href="#contact" id="hireme-tab" class="link-inpage"><i class="fa fa-briefcase"></i> Contact Me</a></li>
+                  </ul>
                 </div>
+                <div class="col-md-6">
+                  <ul class="breadcrumb main-nav nav">
+                    <li class="active"><a href="#home" class="link-inpage">Home</a></li>
+                    <li ><a href="#about" class="link-inpage">About</a></li>
+                    <li ><a href="#portfolio" class="link-inpage">Portfolio</a></li>
+                    <li ><a href="#contact" id="contact-tab" class="link-inpage">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul class="breadcrumb main-nav no-space">
+                    <li>
+                      <a href="#" ><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/BlackTARKUS" ><i class="fa fa-github"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- About Me -->
-        <section id="about" class="three">
-            <div class="container">
-                <header>
-                    <h2>About Me</h2>
-                </header>
-                <a href="assets/images/Headshot.jpg" class="image featured"><img src="assets/images/Headshot.jpg" alt="headshot"/></a>
-                <p>I am Cody Lee, an undergraduate student at Mercer University. I am currently pursuing a BS in Computer Science with a minor in Technical Communications. In addition to my academic work, I enjoy watching movies, learning languages, and playing video games. I absolutely love cooking and eating food. Feel free to talk to me if you see me.</p>
-            </div>
-        </section>
-    </div>
-    <!-- Footer -->
-    <div id="footer">
-        <!-- Copyright -->
-        <ul class="copyright">
-            <li>&copy; Cody Lee</li>
-            <li>Framework: <a href="http://html5up.net">Prelude</a></li>
-            <!--Built on the Prelude framework and partial template provided for free personal and commercial use -->
-        </ul>
-    </div>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollzer.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+          </div>
+        </div><!-- End Main navbar -->
+      </header><!-- End Main Header -->
 
+      <!-- ABOUT ME -->
+      <section id="about" class="block-section">
+        <div class="clearfix my-profile">
+          <div class="my-pict" >
+            <div class="overfly">
+              <div class="text-botttom">
+                <h2 class="text-uppercase color-dark text-bold">Cody Lee</h2>
+                <h5 class="text-uppercase color-dark font-alt ">A Developer</h5>
+              </div>
+            </div>
+          </div>
+          <div class="my-desc">
+            <div class="bg-secondary clearfix">
+              <div class="inner-text">
+                <h3 class=" color-dark no-margin-top">About Me:</h3>
+                <p >I am Cody Lee, an undergraduate student at Mercer University. I am currently pursuing a BS in Computer Science with a minor in Technical Communications. In addition to my academic work, I enjoy watching movies, learning languages, and playing video games. I absolutely love cooking and eating food.</p>
+              </div>
+            </div>
+            <div class="bg-dark clearfix">
+              <div class="inner-text">
+                <p class="no-margin color-light ">
+                  <strong class="fix-width-100"><i class="fa fa-calendar margin-right-5"></i> Birthdate</strong> : 1998/04/19<br/>
+                  <strong class="fix-width-100"><i class="fa fa-envelope margin-right-5"></i> Email</strong> : ydoclee@gmail.com<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERVICES-->
+        <div class="container">
+          <ul class="services list-unstyled clearfix">
+            <li class="col-sm-4 no-padding">
+              <div class="box">
+                <div class="ic"><i class="fa fa-code"></i></div>
+                <h5 class="text-uppercase color-dark">Native Application Developer</h5>
+              </div>
+            </li>
+            <li class="col-sm-4 no-padding">
+              <div class="box">
+                <div class="ic"><i class="fa fa-laptop"></i></div>
+                <h5 class="text-uppercase color-dark">Technical Communicator</h5>
+              </div>
+            </li>
+            <li class="col-sm-4 no-padding">
+              <div class="box ">
+                <div class="ic"><i class="fa fa-bar-chart"></i></div>
+                <h5 class="text-uppercase color-dark">Multilingual</h5>
+              </div>
+            </li>
+          </ul>
+        </div><!-- END SERVICES-->
+      </section><!-- END ABOUT ME -->
+
+
+      <!-- RESUME -->
+      <section id="resume" class="block-section">
+
+      	<!--PORTFOLIO-->
+      <section id="portfolio" class="block-section">
+        <!--PORTFOLIO TITLE-->
+        <div class=" shape-bottom">
+          <div class="bg-secondary block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-dark text-bold no-margin">Portfolio</h2>
+              <div class="title-icon"> <i class="fa fa-inbox"></i> </div>
+            </div>
+          </div>
+        </div><!--END PORTFOLIO TITLE-->
+
+        <!--List Work-->
+        <div class="block-page" >
+
+
+          <div class="container-medium clearfix">
+            <div class="row list-work">
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p1.png" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p1.png" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Asteroids</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p2.jpg" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p2.jpg" title="pic 02" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">3D Model Projection</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p3.png" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p3.png" title="pic 03" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">TagMate</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p4.jpg" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p4.jpg" title="pic 04" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p6.png" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p6.png" title="pic 05" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p5.jpg" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p5.jpg" title="pic 06" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p1.png" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p1.png"  title="pic 07" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p2.jpg" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p2.jpg"  title="pic 08" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="assets/theme/images/portfolio/p3.png" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="assets/theme/images/portfolio/p3.png" title="pic 09" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div><!--END List WOrk-->
+       
+        <!--EDUCATION-->
+        <div class=" shape-bottom">
+          <div class="bg-secondary block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-dark text-bold no-margin">Education</h2>
+              <div class="title-icon"> <i class="fa fa-graduation-cap"></i> </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-medium">
+          <div class="list-education">
+            <ul class="list-unstyled  clearfix">
+              <li>
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <div class="number font-alt">01</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">Mercer University</h5>
+                  <p class="font-alt color-dark">Undergraduate Degree</p>
+                  <p>I received a BA in computer science with a minor in technical communications
+                  	from Mercer University in 2020. I specialized in algorithms and C++ development
+                  	for native desktop applications. I received a cumulative GPA of 3.5. I additionally
+                  	studied Chinese during my undergaduate program and self taught Japanese.</p>
+                  <p class="font-alt color-dark">  2016-2020</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div> <!--END EDUCATION-->
+
+        <!--SKILLS-->
+        <div class=" shape-bottom">
+          <div class="bg-secondary block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-dark text-bold no-margin">Skills</h2>
+              <div class="title-icon"> <i class="fa fa-magic"></i> </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-medium">
+
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="list-unstyled list-progress">
+                <li>
+                  <div class="text-uppercase color-dark title "><span>English</span>  <small> - Native</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="100%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">Japanese   <small> - N3</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="60%"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">Chinese   <small> - HSK 3</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="50%" ></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">Writing   <small> - Advanced</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="75%" ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="list-unstyled list-progress">
+                <li>
+                  <div class="text-uppercase color-dark title">Linux <small> - Advanced</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="85%" ></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">C++  <small> - Advanced</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="80%" ></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">HTML  <small> - Intermediate</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="45%" ></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-uppercase color-dark title">Photoshop  <small> - Intermediate</small></div>
+                  <div class="progress-line">
+                    <div class="line" data-holdwidth="50%" ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div><!-- END MORE SKILS -->
+          <div class="white-space-50"></div>
+        </div>
+
+        <!-- DOWNLOAD & PRVIEW BTN -->
+        <div class="parallax-bg bg1" >
+          <div class="container">
+            <div class="padding30 text-center">
+              <a href="#" class="btn btn-flat-line btn-default light-font "><i class="fa fa-download"></i>  Download CV</a>
+              <span class="space-inline-15 hidden-xs"></span>
+              <a href="#" class="btn btn-flat-line btn-default light-font"><i class="fa fa-print"></i> Print CV</a>
+            </div>
+          </div>
+        </div><!-- END DOWNLOAD & PRVIEW BTN -->
+      </section><!-- END SERVICES-->
+      </section><!--END PORTFOLIO-->
+
+      <!--CONTACT-->
+      <section id="contact" class="block-section">
+        <!--CONTACT TITLE-->
+        <div class=" shape-bottom">
+          <div class="bg-secondary block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-dark text-bold no-margin">Contact</h2>
+              <div class="title-icon"> <i class="fa fa-envelope-o"></i> </div>
+            </div>
+          </div>
+        </div><!--END CONTACT TITLE-->
+
+        <div class="contact-area">
+          <div class="form-contact-area clearfix">
+            <div class="inner-contact clearfix ">
+              <!--TABS CONTACT-->
+              <ul id="myTab" class="nav nav-tabs flat-nav-tabs" role="tablist">
+                <li class="active"><a href="#tab0" role="tab" data-toggle="tab">Contact Me</a></li>
+                <li><a href="#tab1" role="tab" data-toggle="tab">Hire Me</a></li>
+              </ul>
+
+              <div id="myTabContent" class="tab-content flat-tab-content">
+                <div class="tab-pane fade in active" id="tab0">
+                  <form method="post" id="contactForm" name="contactForm">
+                    <input type="hidden" name="subject" value="Message Contact Form">
+                    <div class="form-group">
+                      <label>Your Name (*)</label>
+                      <input type="text" class="form-control form-flat" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email (*)</label>
+                      <input type="email" class="form-control form-flat" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Your Message (*)</label>
+                      <textarea class="form-control form-flat" name="message" rows="8" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <div id="captcha1"></div>
+                    </div>
+                    <div class="form-group ">
+                      <button type="submit" class="btn btn-flat-solid primary-btn" >Send Message</button>
+                    </div>
+                    <div class="form-group">
+                      <div class="preload-submit hidden"><hr/> <i class="fa fa-spinner fa-spin"></i> Please Wait ...</div>
+                      <div class="message-submit error hidden"></div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane fade" id="tab1">
+                  <form method="post" id="hireForm" name="hireForm">
+                    <input type="hidden" name="subject" value="Message Hire Form">
+                    <input type="hidden" name="file" id="file-att" value="">
+                    <div class="form-group">
+                      <label>Your Name (*)</label>
+                      <input type="text" class="form-control form-flat" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email (*)</label>
+                      <input type="email" class="form-control form-flat" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Short Description About of Project (*)</label>
+                      <textarea class="form-control form-flat" name="message" rows="8" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Attach Your Document <span class="display-block color-dark">(only .pdf  allowed , max size 200Kb)</span></label>
+                      <div class="clearfix">						
+                        <input type="button" id="upload-btn" class="btn btn-flat-solid btn-file btn-xs btn-default  clearfix" value="Choose file">
+                        <div id="errormsg" class="clearfix error"></div>	              
+                        <div id="pic-progress-wrap" class="progress-wrap"></div>	
+                        <div id="picbox" class="attbox color-dark"></div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div id="captcha2"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-flat-solid primary-btn">Send Request</button>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="preload-submit hidden"><hr/> <i class="fa fa-spinner fa-spin"></i> Please Wait ...</div>
+                      <div class="message-submit error hidden"></div>
+                    </div>
+                  </form>
+                </div>
+              </div><!--End Tabs-->
+            </div>
+          </div>
+        </div>
+      </section><!--END CONTACT-->
+
+
+      <!--FOOTER-->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="folow-me">
+            Follow Me On
+          </div>
+          <ul class="list-inline social-links text-center">
+            <li>
+              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/BlackTARKUS"  data-toggle="tooltip"  data-placement="top" title="Github"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+          <p class="text-center no-margin">
+            Solid - All Rights Reserved &COPY; 2014
+          </p>
+          <a href="#home" class="back-to-top"><i class="fa fa-angle-double-up" ></i></a>
+        </div>
+      </footer><!--END FOOTER-->
+    </div><!--End wrapper page-->
+
+    <!-- generate captcha -->
+    <div id="mycaptcha-wrap" class="hidden mycaptcha1">
+      <div id="mycaptcha" class="mycaptcha1"></div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/plugins/jquery.js"></script>
+    <script src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+
+    <!-- maps js -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
+    <script src="assets/plugins/jquery.ui.map.js"></script> 
+    <!-- advanced easing options -->
+    <script src="assets/plugins/jquery.easing-1.3.pack.js"></script>
+    <!-- parallax bg js -->
+    <script src="assets/plugins/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox js -->
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- typed animation-->
+    <script src="assets/plugins/typed/typed.js"></script>
+    <!-- easy chart-->
+    <script src="assets/plugins/easypiechart/jquery.easypiechart.min.js"></script>
+    <!-- simple Captcha -->
+    <script src="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.js"></script>
+    <!-- simple Ajax Uploader -->
+    <script src="assets/plugins/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js"></script>
+    <!-- validate jquery-->
+    <script src="assets/plugins/validator/jquery.validate.min.js"></script>
+
+    <!--=====================================================-->
+    <!--configuration template-->
+    <script src="assets/theme/js/theme.js"></script>
+  </body>
 </html>

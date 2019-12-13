@@ -1,365 +1,873 @@
-<!DOCTYPE html>
-<html lang="en" >
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <title>Lee - Web Portfolio</title>
-    <!--favicon-->
-    <link rel="apple-touch-icon" href="assets/theme/images/apple-touch-icon.png">
-    <link rel="icon" href="assets/theme/images/favicon.ico">
-
-    <!--pace (page loader) style-->
-    <link href="assets/plugins/pace/pace.css" rel="stylesheet">
-    <script src="assets/plugins/pace/pace.min.js"></script>
-
-    <!-- Bootstrap -->
-    <link href="assets/plugins/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Icons -->
-    <link href="assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- typed style -->
-    <link href="assets/plugins/typed/typed.css" rel="stylesheet">
-    <!-- popup style-->
-    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!-- simple Captcha-->
-    <link href="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.css" rel="stylesheet">
-
-    <!-- Themes styles-->
-    <link href="assets/theme/css/style.css" rel="stylesheet">
-    <!-- black skin-->
-    <!-- <link href="assets/theme/css/skin-black.css" rel="stylesheet"> -->
-  </head>
-
-  <body  data-spy="scroll" data-target=".menu-area" data-offset="200">
-    <!--wrapper page-->
-    <div class="wrapper">
-
-      <!-- Main Header -->
-      <header class="main-header" id="home">
-        <div class="content-table header-content-fixed ">
-          <div class="whoim">
-            <div class="box-line text-uppercase text-bold">
-              Who I Am
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Cody Lee Web-Portfolio</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Maha Personal cv/resume template for professional and personal website." />
+        <meta name="keywords" content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume, vcard " />
+        <meta name="developer" content="Md. Siful Islam">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+        <!-- FAV AND ICONS   -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/apple-icon.png">
+        <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+        <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+        
+        <!-- Google Font-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+        <!-- Animate CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/animate.css">
+        <!-- Owl Carousel CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/owl.css">
+        <!-- Fancybox-->
+        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+        
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- Colors -->
+        <link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld">
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">  -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate"> -->
+        <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
+        
+    </head>
+    <body class="dark-vertion black-bg">
+        
+        <!-- Start Loader -->
+        <div class="section-loader">
+            <div class="loader">
+                <div></div>
+                <div></div> 
             </div>
-          </div>
-          <div class="v-content">
-            <div class="container">
-              <h1 class="text-uppercase color-dark name">Cody Lee</h1>
-            </div>
-          </div>
         </div>
-
-
-        <!-- Main navbar -->
-        <div class="menu-area">
-          <div class="toogle-bars">
-            <a href="#menu-collapse" data-toggle="collapse" class="collapsed"><i class="fa fa-bars ic-open"></i> <i class="fa fa-remove ic-close"></i> MENU</a>
-          </div>
-          <div class="menu-collapse collapse" id="menu-collapse">
+        <!-- End Loader -->
+        
+        <!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
+        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header">
+            <div class="overlay"></div>
             <div class="container">
-              <div class="row">
-                <div class="col-md-3">
-                  <ul class="breadcrumb main-nav no-space">
-                    <li class="link-inpage"><a href="#contact" id="hireme-tab" class="link-inpage"><i class="fa fa-briefcase"></i> Contact Me</a></li>
-                  </ul>
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#mh-home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-skills">Skills</a>
+                                </li>                                
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-experience">Experiences</a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                                </li>                               
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                <div class="col-md-6">
-                  <ul class="breadcrumb main-nav nav">
-                    <li class="active"><a href="#home" class="link-inpage">Home</a></li>
-                    <li ><a href="#about" class="link-inpage">About</a></li>
-                    <li ><a href="#portfolio" class="link-inpage">Portfolio</a></li>
-                    <li ><a href="#contact" id="contact-tab" class="link-inpage">Contact</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <ul class="breadcrumb main-nav no-space">
-                    <li>
-                      <a href="https://github.com/BlackTARKUS" ><i class="fa fa-github"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-        </div><!-- End Main navbar -->
-      </header><!-- End Main Header -->
+        </header>
 
-      <!-- ABOUT ME -->
-      <section id="about" class="block-section">
-        <div class="clearfix my-profile">
-          <div class="my-pict" >
-            <div class="overfly">
-              <div class="text-botttom">
-                <h2 class="text-uppercase color-dark text-bold">Cody Lee</h2>
-                <h5 class="text-uppercase color-dark font-alt ">A Developer</h5>
-              </div>
-            </div>
-          </div>
-          <div class="my-desc">
-            <div class="bg-secondary clearfix">
-              <div class="inner-text">
-                <h3 class=" color-dark no-margin-top">About Me:</h3>
-                <p >I am Cody Lee, an senior undergraduate student at Mercer University. I am currently finishing a bachelors degree in Computer Science with a minor in Technical Communications. In addition to my major and minor I have taken courses in Chinese foreign language, and spent time self learning Japanese. I have a drive to learn which enables me to quickly develop new skills. My current undergraduate research and development project focuses on building a campus navigation app for individuals with limited mobility.</p>
-              </div>
-            </div>
-            <div class="bg-dark clearfix">
-              <div class="inner-text">
-                <p class="no-margin color-light ">
-                  <strong class="fix-width-100"><i class="fa fa-envelope margin-right-5"></i> Email</strong> : Cody.M.Lee@live.mercer.edu<br/>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!--
+        ===================
+           Home
+        ===================
+        -->
+        <section class="mh-home image-bg home-2-img" id="mh-home">
+            <div class="img-foverlay img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
+                        <div class="col-sm-6">
+                            <div class="mh-header-info">
+                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                    <span>Hello I'm</span>
+                                </div>
+                                
+                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Cody Lee</h2>
+                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Full Stack Developer</h4>
+                                
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:Cody.M.Lee@live.mercer.edu">Cody.M.Lee@live.mercer.edu</a></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:(470)-231-5714">+1 470 231 5714</a></li>
+                                </ul>
+                                
+                                <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
 
-        <!-- SERVICES-->
-        <div class="container">
-          <ul class="services list-unstyled clearfix">
-            <li class="col-sm-4 no-padding">
-              <div class="box">
-                <div class="ic"><i class="fa fa-code"></i></div>
-                <h5 class="text-uppercase color-dark">Computer Scientist</h5>
-              </div>
-            </li>
-            <li class="col-sm-4 no-padding">
-              <div class="box">
-                <div class="ic"><i class="fa fa-laptop"></i></div>
-                <h5 class="text-uppercase color-dark">Technical Communicator</h5>
-              </div>
-            </li>
-            <li class="col-sm-4 no-padding">
-              <div class="box ">
-                <div class="ic"><i class="fa fa-bar-chart"></i></div>
-                <h5 class="text-uppercase color-dark">Foreign Language Enthusiast</h5>
-              </div>
-            </li>
-          </ul>
-        </div><!-- END SERVICES-->
-      </section><!-- END ABOUT ME -->
-
-
-      <!-- RESUME -->
-      <section id="resume" class="block-section">
-
-      	<!--PORTFOLIO-->
-      <section id="portfolio" class="block-section">
-        <!--PORTFOLIO TITLE-->
-        <div class=" shape-bottom">
-          <div class="bg-secondary block-title">
-            <div class="container">
-              <h2 class="text-uppercase color-dark text-bold no-margin">Portfolio</h2>
-              <div class="title-icon"> <i class="fa fa-inbox"></i> </div>
-            </div>
-          </div>
-        </div><!--END PORTFOLIO TITLE-->
-
-        <!--List Work-->
-        <div class="block-page" >
-          <div class="container-medium clearfix">
-            <div class="row list-work">
-              <div class="col-md-4 col-sm-6">
-                <div class="box-work">
-                  <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p2.jpg" alt="">
-                    <div class="hover">
-                      <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p2.jpg" title="pic 02" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
-                      </div>
-                      <a href="portfolio-detail.html" class="project-title">3D Model Projection</a>
+                                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <div class="img-border">
+                                    <img src="assets/images/hero.png" alt=""  class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="box-work">
-                  <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p4.jpg" alt="">
-                    <div class="hover">
-                      <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p4.jpg" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                        <a href="ChnDbProject.html"><i class="fa fa-link"></i></a>
-                      </div>
-                      <a href="ChnDbProject.html" class="project-title">Chinese Database (Under Reconstruction)</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="box-work">
-                  <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p3.png" alt="">
-                    <div class="hover">
-                      <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p3.png" title="pic 03" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
-                      </div>
-                      <a href="portfolio-detail.html" class="project-title">Mercer Handicap Navigation (WIP)</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div><!--END List Work-->
-       
-        <!--EDUCATION-->
-        <div class=" shape-bottom">
-          <div class="bg-secondary block-title">
+        </section>
+        
+        <!--
+        ===================
+           ABOUT
+        ===================
+        -->
+        <section class="mh-about" id="mh-about">
             <div class="container">
-              <h2 class="text-uppercase color-dark text-bold no-margin">Education</h2>
-              <div class="title-icon"> <i class="fa fa-graduation-cap"></i> </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-medium">
-          <div class="list-education">
-            <ul class="list-unstyled  clearfix">
-              <li>
-                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
-                <div class="number font-alt">01</div>
-                <div class="desc">
-                  <h5 class="text-uppercase color-dark text-bold">Mercer University Undergraduate</h5>
-                  <p class="font-alt color-dark">Bachelor's Degree</p>
-                  <p>I received a BA in computer science with a minor in technical communications
-                  	from Mercer University in 2020. I learned how to quickly become capable in programming languages, and focused heavily on C++.
-                  	I received a cumulative GPA of 3.3. I additionally
-                  	studied Chinese during my undergaduate program and self taught basic Japanese.</p>
-                  <p class="font-alt color-dark"> 2016-2020</p>
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <img src="assets/images/ab-img.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-inner">
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I am Cody Lee. I am a Computer Scientist with experience building web-based applications, and learning programming languages on the fly. I also studied Technical Communication with a focus on web and document design.</p>
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <ul>
+                                    <li><span>Julia</span></li>
+                                    <li><span>C++</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>MySQL</span></li>
+                                    <li><span>Perl</span></li>
+                                </ul>
+                            </div>
+                            <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
+                        </div>
+                    </div>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </div> <!--END EDUCATION-->
-
-        <!--SKILLS-->
-        <div class=" shape-bottom">
-          <div class="bg-secondary block-title">
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           SERVICE
+        ===================
+        -->
+        <section class="mh-service">
             <div class="container">
-              <h2 class="text-uppercase color-dark text-bold no-margin">Skills</h2>
-              <div class="title-icon"> <i class="fa fa-magic"></i> </div>
+                <div class="row section-separator">
+                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h2>What I do</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-bullseye purple-color"></i>
+                            <h3>Technical Communication</h3>
+                            <p>
+                                During my undergraduate degree I took courses in Technical Communication specialized in web-communication and UI design. I learned how to design documents which are appealing and usable, as well as how to conduct testing on such products.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <i class="fa fa-code iron-color"></i>
+                            <h3>Web Development</h3>
+                            <p>
+                                I have been involved in web development projects for my university for three of my four years of undergraduate studies. I have worked with the LAMP stack, prototyped, implemented, and tested websites and web-applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <i class="fa fa-object-ungroup sky-color"></i>
+                            <h3>Project Management</h3>
+                            <p>
+                                I was involved in many projects during Undergraduate studies in which I was the project leader/manager. I have learned how to manage Git repositories, manage trello boards, organize Agile SCRUM workflows, and and evaluate product effectiveness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <div class="container-medium">
-
-          <div class="row">
-            <div class="col-sm-6">
-              <ul class="list-unstyled list-progress">
-                <li>
-                  <div class="text-uppercase color-dark title "><span>English</span>  <small> - Native</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="100%"></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">Japanese   <small> - N5</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="20%"></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">Chinese   <small> - HSK 2</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="35%" ></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">Technical Writing   <small> - Proficient</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="75%" ></div>
-                  </div>
-                </li>
-              </ul>
+        </section>
+        
+        <!--
+        ===================
+          FEATURE PROJECTS
+        ===================
+        -->
+        <section class="mh-featured-project image-bg featured-img-one">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title col-sm-12">
+                            <h3>Featured Projects</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="mh-single-project-slide-by-side row">
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/ctrw.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Development</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Chinese the Right Way</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Chinese the Right Way is a web-based user driven learning website that I developed along side Brad Powell under the super vision of Mercer University's Dr. Martin Q. Zhoa. Using the LAMP stack, Javascript, and opensource data I created a site which allows users to learn Chinese characters, and view a databse of Chinese character data.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Great work</q>
+                                    					<cite>- Dr. Martin Zhao</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/p-2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Creative Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                                <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="assets/images/p-2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Creative Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End: .row -->
+                </div>
             </div>
-            <div class="col-sm-6">
-              <ul class="list-unstyled list-progress">
-                <li>
-                  <div class="text-uppercase color-dark title">Linux <small> - Intermediate</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="55%" ></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">C++  <small> - Proficient</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="70%" ></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">HTML  <small> - Intermediate</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="45%" ></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="text-uppercase color-dark title">Photoshop  <small> - Intermediate</small></div>
-                  <div class="progress-line">
-                    <div class="line" data-holdwidth="60%" ></div>
-                  </div>
-                </li>
-              </ul>
+        </section>  
+        
+        <!--
+        ===================
+           SKILLS
+        ===================
+        -->
+        <section class="mh-skills" id="mh-skills">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title text-center col-sm-12">
+                            <!--<h2>Skills</h2>-->
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-skills-inner">
+                                <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    <h3>Technical Skills</h3>
+                                    <div class="each-skills">
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Javascript</div>
+                                                    <div class="percentagem-num">86%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 86%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Java</div>
+                                                    <div class="percentagem-num">46%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 46%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Python</div>
+                                                    <div class="percentagem-num">38%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">PHP</div>
+                                                    <div class="percentagem-num">17%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                        
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Python</div>
+                                                    <div class="percentagem-num">38%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">PHP</div>
+                                                    <div class="percentagem-num">17%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <h3>Professional Skills</h3>
+                                <ul class="mh-professional-progress">
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                        <div class="pr-skill-name">Communication</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="55"></div> 
+                                        <div class="pr-skill-name">Team Work</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="86"></div>
+                                        <div class="pr-skill-name">Project Management</div>
+                                    </li> 
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="60"></div>
+                                        <div class="pr-skill-name">Creativity</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div><!-- END MORE SKILS -->
-          <div class="white-space-50"></div>
-        </div>
-      </section><!-- END SERVICES-->
-      </section><!--END PORTFOLIO-->
+        </section>
+        
+        <!--
+        ===================
+           EXPERIENCES
+        ===================
+        -->
+        <section class="mh-experince image-bg featured-img-one" id="mh-experience">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-education">
+                                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                                <div class="mh-education-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                        <h4>Bachelor's of Computer Science from <a href="">Mercer University</a></h4>
+                                        <div class="mh-eduyear">2016-2020</div>
+                                        <p>I will graduate from Mercer University in May of 2020 with a Bachelor's degree in Computer Science </p>
+                                    </div>                                                              
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-work">
+                                 <h3>Work Experience</h3>
+                                <div class="mh-experience-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                        <h4>IT Field Support <a href="">Mercer University IT</a></h4>
+                                        <div class="mh-eduyear">2017-2018</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Image New Computers</li>
+                                            <li><i class="fa fa-circle"></i>Handle Inbound And Outbound Packages</li>
+                                            <li><i class="fa fa-circle"></i>Install Computers In The Field</li>
+                                            <li><i class="fa fa-circle"></i>Manage Electronic Help Tickets</li>
+                                            <li><i class="fa fa-circle"></i>User Support Calls</li>
+                                        </ul>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>IT assistant <a href="">Mercer University Foreign Language Department</a></h4>
+                                        <div class="mh-eduyear">2018-2019</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Troubleshoot Printing Devices</li>
+                                            <li><i class="fa fa-circle"></i>Resolve Hardware Issues As Needed</li>
+                                        </ul>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        
+        <!--
+        ===================
+           PORTFOLIO
+        ===================
+        -->
+        <section class="mh-portfolio" id="mh-portfolio">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                        <h3>Recent Portfolio</h3>
+                    </div>
+                    <div class="part col-sm-12">
+                        <div class="portfolio-nav col-sm-12" id="filter-button">
+                            <ul>
+                                <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                                <li data-filter=".programming" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Programming</span></li>
+                                <li data-filter=".webdev" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Web Development</span></li>
+                                <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
+                                <li data-filter=".graphics" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Graphic Design</span></li>
+                            </ul>
+                        </div>
+                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="portfolioContainer row">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 programming webdev">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g1.png" alt="MU Access">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">MU Macon Access Map</h5>
+                                            <span class="sub-title">Accessibilty-based Geo Mapping</span>
+                                            <a data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 programming webdev">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g2.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Chinese the Right Way</h5>
+                                            <span class="sub-title">User Driven Chinese Learning</span>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup graphics">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g3.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Box Fighter</h5>
+                                            <span class="sub-title">UX & UI Design</span>
+                                            <a href="assets/images/portfolio/g3.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 webdev graphics">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g5.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Dustloop Wiki</h5>
+                                            <span class="sub-title">Web Design, Technical Writing, & Site Administration</span>
+                                            <a href="assets/images/portfolio/g5.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 webdev graphics">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g4.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Break Room Basics</h5>
+                                            <span class="sub-title">Interactive E-Learning Module</span>
+                                            <a href="assets/images/portfolio/g4.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 programming">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g6.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">OpenGL 3D Model Viewer</h5>
+                                            <span class="sub-title">OpenGL Graphics Programming</span>
+                                            <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 graphics mockup">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g8.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Mercer Smash Poster</h5>
+                                            <span class="sub-title">Graphic Design For Print</span>
+                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 graphics">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g9.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Food Fail</h5>
+                                            <span class="sub-title">Cinematography & Video Editing</span>
+                                            <a href="assets/images/portfolio/g9.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
 
-      <!--FOOTER-->
-      <footer class="main-footer">
-        <div class="container">
-          <div class="folow-me">
-            Follow Me On
-          </div>
-          <ul class="list-inline social-links text-center">
-            <li>
-              <a href="https://github.com/BlackTARKUS"  data-toggle="tooltip"  data-placement="top" title="Github"><i class="fa fa-github"></i></a>
-            </li>
-          </ul>
-          <p class="text-center no-margin">
-            <a href="https://elements.envato.com/who-i-am-personal-resume-and-portfolio-ZN38LY">Solid</a> - All Rights Reserved &COPY; 2014 
-          </p>
-          <a href="#home" class="back-to-top"><i class="fa fa-angle-double-up" ></i></a>
-        </div>
-      </footer><!--END FOOTER-->
-    </div><!--End wrapper page-->
+                            </div> <!-- End: .grid .project-gallery -->
+                        </div> <!-- End: .grid .project-gallery -->
+                    </div> <!-- End: .part -->
+                </div> <!-- End: .row -->
+            </div>
+            <div class="mh-portfolio-modal" id="mh">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Wrap - A campanion plugin</h2>
+                            <p>Wrap is a clean and elegant Multipurpose Landing Page Template. 
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                            All variations are organized separately so you can use / customize the template very easily.</p>       
+                            
+                            <p>It is a clean and elegant Multipurpose Landing Page Template. 
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                            All variations are organized separately so you can use / customize the template very easily.</p>      
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>php</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>wordpress</span></li>
+                                    <li><span>React</span></li>
+                                    <li><span>Javascript</span></li>
+                                </ul>
+                            </div>
+                            <a href="" class="btn btn-fill">Live Demo</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>    
+                                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           Testimonial
+        ===================
+        -->
+        <section class="mh-testimonial" id="mh-testimonial">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Client Reviews</h3>
+                        </div>
+                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           FOOTER 3
+        ===================
+        -->
+        <footer class="mh-footer mh-footer-3" id="mh-contact">
+            <div class="container-fluid">
+                <div class="row section-separator">
+                    <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h3>Contact Me</h3>
+                    </div>
+                    <div class="map-image image-bg col-sm-12">
+                        <div class="container mt-30">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 mh-footer-address">
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                            <div class="each-icon">
+                                                <i class="fa fa-envelope-o"></i>
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Email</h4>
+                                                <a href="mailto:Cody.M.Lee@live.mercer.edu">Cody.M.Lee@live.mercer.edu</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                            <div class="each-icon">
+                                                <i class="fa fa-phone"></i>
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Phone</h4>
+                                                <a href="callto:(470)-231-5714">(470) 231-5714</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                            
+                                            <!-- Subject Button -->
+                                            <div class="btn-form col-sm-12">
+                                                <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="text-left text-xs-center">
+                                                <p>All right reserved Siful Islam @ 2018</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="social-icon">
+                                                <li><a href=""><i class="fa fa-github"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <!-- generate captcha -->
-    <div id="mycaptcha-wrap" class="hidden mycaptcha1">
-      <div id="mycaptcha" class="mycaptcha1"></div>
-    </div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/plugins/jquery.js"></script>
-    <script src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
-
-    <!-- maps js -->
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
-    <script src="assets/plugins/jquery.ui.map.js"></script> 
-    <!-- advanced easing options -->
-    <script src="assets/plugins/jquery.easing-1.3.pack.js"></script>
-    <!-- parallax bg js -->
-    <script src="assets/plugins/jquery.parallax-1.1.3.js"></script>
-    <!-- lightbox js -->
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- typed animation-->
-    <script src="assets/plugins/typed/typed.js"></script>
-    <!-- easy chart-->
-    <script src="assets/plugins/easypiechart/jquery.easypiechart.min.js"></script>
-    <!-- simple Captcha -->
-    <script src="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.js"></script>
-    <!-- simple Ajax Uploader -->
-    <script src="assets/plugins/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js"></script>
-    <!-- validate jquery-->
-    <script src="assets/plugins/validator/jquery.validate.min.js"></script>
-
-    <!--=====================================================-->
-    <!--configuration template-->
-    <script src="assets/theme/js/theme.js"></script>
-  </body>
+    <!--
+    ==============
+    * JS Files *
+    ==============
+    -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- Map api -->
+    <!-- <script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script> -->
+    <!-- isotope js-->
+    <script src="assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    <!-- <script src="assets/js/map-init.js"></script> -->
+    <script src="assets/js/custom-scripts.js"></script>
+</body>
 </html>

@@ -1,9 +1,7 @@
 :root {
-  --header-color: #399bb3;
-  --card-color: #f9f9f9;
-  --stripe-color: #f1f1f1;
-  --textbody-color: #ffffff;
-  --body-color: white;
+  --primary-color: #fafafa;
+  --secondary-color: #ffffff;
+  --tertiary-color: #eeeeee;
   --startup-color: #558b2f;
   --active-color: #f44336;
   --recovery-color: #1e88e5;
@@ -13,11 +11,12 @@
   --s-color: #20a266;
   --h-color: #3d93e8;
   --d-color: #fb8231;
+  --leftpanel-width: 175px;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--body-color);
+  background-color: var(--primary-color);
 }
 h1 {
   text-transform: capitalize;
@@ -32,7 +31,6 @@ h2 {
   letter-spacing: -0.5px;
 }
 h3 {
-  text-transform: capitalize;
   font-size: 34px;
   letter-spacing: 0px;
   font-weight: bolder;
@@ -118,9 +116,9 @@ a:visited {
   align-content: stretch;
   align-items: flex-start;
   width: 80%;
-  border-radius: 4px 4px 4px 4px;
-  background-color: var(--card-color);
-  margin: 18px 0 18px 0;
+  border-radius: 8px 8px 8px 8px;
+  background-color: var(--secondary-color);
+  margin: 16px 0 16px 0;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -138,6 +136,8 @@ a:visited {
   justify-content: space-between;
   font-style: normal;
   max-height: 60px;
+  background-color: var(--secondary-color);
+  border-radius: 8px 8px 0 0;
 }
 
 .moveLabel {
@@ -150,7 +150,7 @@ a:visited {
   align-items: stretch;
   padding-right: 2em;
   text-align: center;
-  width: 250px;
+  width: var(--leftpanel-width);
   max-height: 60px;
 }
 
@@ -187,7 +187,7 @@ a:visited {
   order: 1;
   flex: 0 1 auto;
   align-self: stretch;
-  background-color: var(--stripe-color);
+  background-color: var(--tertiary-color);
 }
 
 .moveBoxRow2 #startup {
@@ -207,11 +207,9 @@ a:visited {
   order: 1;
   flex: 0 1 auto;
   align-self: stretch;
-  background-color: var(--textbody-color);
   flex-direction: column;
   justify-content: space-between;
   padding: 0 1em 0 1em; 
-  border-bottom-right-radius: 6px;
 }
 
 .moveBoxContent {
@@ -222,10 +220,13 @@ a:visited {
   justify-content: flex-start;
   align-content: stretch;
   align-items: flex-start;
+  line-height: 1.5rem;
 }
 
 .imgContainer {
-  max-width: 250px;
+  max-width: var(--leftpanel-width);
+  background-color: var(--primary-color);
+  border-radius: 0 0 0 8px;
 }
 
 .imgContainer img {
